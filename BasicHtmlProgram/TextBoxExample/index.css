@@ -1,0 +1,51 @@
+html{
+    background-color: yellow;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 30px 0;
+    column-gap: 10px 0;
+}
+h1{
+    color: red;
+    font-size: 600%;
+    font-style:italic;
+    
+
+}
+#skyblue{
+    background-color: rgb(9, 173, 238);
+    font-size: 200%;
+    border-style: outset;
+   
+/* border-style: ridge; */
+}
+#silver{
+    background-color: silver;
+    font-size: 200%;
+    border-style: outset;
+    /* border-style: solid; */
+}
+#pink{
+    background-color: pink;
+    font-size: 200%;
+    border-style: outset;
+}
+#red{
+    background-color: red;
+    border-style: outset;
+    font-size:200%;
+}
+#green{
+    background-color: green;
+    border-style: outset;
+    color: white;
+    font-size: 250%;
+    
+}
+#purple{
+    background-color: purple;
+    border-style: outset;
+    color: white;
+    font-size: 250%;
+}

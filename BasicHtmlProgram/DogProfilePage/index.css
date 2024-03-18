@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+#about{
+    background-color: rgb(98, 176, 240);
+    color: rgb(10, 10, 141);
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+#woof{
+    line-height: 3em;
+}
+#courses{
+    background-color: rgb(98, 176, 240);
+    color: rgb(10, 10, 141);
+    height: 30px;
+    font-size: 22px;
+
+
+    
+}  
+#Here{
+    font-size: 10px;
+
+}
+.table,th ,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    #ForCredit{
+        text-align: center;
+    }
+
+}
+
+#Interest{
+    background-color:rgb(98, 176, 240) ;
+    color: blue;
+    font-size: 22px;
+    height: 30px;
+    
+}
+
+#Information{
+    background-color: rgb(98, 176, 240);
+    color:blue ;
+    font-size: 22px;
+    height: 30px;
+}
