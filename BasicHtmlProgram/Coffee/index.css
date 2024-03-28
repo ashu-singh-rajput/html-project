@@ -1,0 +1,39 @@
+#Image{
+background-image:url(Coffee1.jpg);
+background-size: cover;
+}
+#Coffee{
+    margin: 30px;
+    font-weight: 900;
+    color: rgba(80, 10, 10, 0.726);
+}
+.Page a{
+    text-decoration: solid;
+    padding: 10px 40px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#Start{
+   margin: 30px;
+    font-weight:bolder;
+    color: black;
+}
+#Para{
+    font-weight: 600;
+    margin: 30px;
+    color: black;
+
+}
+ #Order{
+    margin-left: 1cm;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-color: rgb(211, 211, 19);
+    border-width: 1px;
+    height: 40px;
+ } 
