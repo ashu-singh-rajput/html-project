@@ -1,39 +1,73 @@
-#Image{
-background-image:url(Coffee1.jpg);
-background-size: cover;
+
+    
+body{
+    background-image: url(Coffee1.jpg);
+    background-size: cover;
+}
+.Navbar{
+    background-color: rgb(125, 119, 119);
+    width: 830px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 550px
+    
+}
+.Navbar ul{
+    overflow: auto;
+}
+.Navbar li{
+    float:left;
+    list-style: none;
+    margin: 15px 14px
+    
+    
+
+}
+.Navbar li a:hover{
+    color: green;
+}
+.Navbar li a{
+    padding: 15px 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.Search{
+float: right;
+color: white;
+font-weight: 800;
+padding-right: 100px;
+padding-top: 10px;
+}
+.Navbar input{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
 }
 #Coffee{
-    margin: 30px;
-    font-weight: 900;
-    color: rgba(80, 10, 10, 0.726);
-}
-.Page a{
-    text-decoration: solid;
-    padding: 10px 40px;
-    float: right;
-    font-size: 20px;
+    text-align: center;
     font-weight: bold;
-    color: black;
+    font-size: 40px;
+    color: #1a1717;
+}
+.HeadPara{
+    padding: 120px 0px 0px 50px;
+}
+#Start{
+    color:#0e0e0e;
+
+
+     
 }
 
-#Start{
-   margin: 30px;
-    font-weight:bolder;
-    color: black;
-}
 #Para{
     font-weight: 600;
-    margin: 30px;
-    color: black;
+    font-family: 'Courier New', Courier, monospace;
 
 }
- #Order{
-    margin-left: 1cm;
-    background-color: aliceblue;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 8px;
-    border-color: rgb(211, 211, 19);
-    border-width: 1px;
-    height: 40px;
- } 
+.Navbar li a:active{
+    color: red;
+}
+/* .Navbar li a:visited{
+    color: yellow;
+} */

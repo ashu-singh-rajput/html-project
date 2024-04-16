@@ -1,0 +1,86 @@
+/* *{
+    box-sizing: border-box;
+} */
+.Navbar{
+    background-color:white;
+    /* border: 3px solid black; */
+
+    
+    
+}
+.Navbar ul{
+    overflow: auto;
+}
+.Navbar li{
+    float: left;
+    list-style: none;
+    padding: 20px 0px 10px 60px;
+    /* padding-left: 60px; */
+    /* margin-left: 100px; */
+    
+
+}
+.Navbar li a{
+    
+    text-decoration: none;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 15px;
+    margin: auto;
+    font-weight: 800;
+    color: rgb(10, 9, 9);
+    padding: 8px;
+}
+.Navbar li a:hover{
+  background-color: orange;
+}
+#Stack{
+    font-weight: 500;
+    margin-left: 100px;
+}
+ #Stack span{
+    font-weight: bold;
+    /* font-size: 10px; */
+}
+#Search{
+    border: 2px solid rgb(238, 238, 238);
+    float: left;
+    border-radius: 10px;
+    width: 250px;
+    padding: 8px;
+    margin: 10px;
+    margin-left: 20px;
+}
+#Login{
+    margin: 15px 0px 10px 10px;
+     padding: 4px; 
+    
+}
+#Signin{
+    margin: 15px 0px 10px 10px;
+    padding: 4px;
+    background-color: rgb(2, 154, 154);
+}
+#BackgroundImage{
+    background-size: cover;
+    background-repeat: no-repeat;
+     width: 1360px;
+     height: 480px;
+    
+}
+.Write{
+    /* border: 2px solid blueviolet; */
+    width: 33%;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    
+
+}
+ h1{
+    font-size: 40px;
+ 
+} 
+ p{
+    font-weight: 400px;
+    
+ }

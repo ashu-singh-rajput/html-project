@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Units</title>
+    <style>
+        
+        .Container{
+            /* font-size: 10px; */
+            
+            border: 2px solid red;
+            /* height me vh ka mtlb view height aapka screen size k full view height 100vh hoga */
+            height: 100vh;
+            /* width me vw ka mtlb view width aapka screen size k full view width 100vw hoga*/
+            /* lekin hme jayada viewwidth ka use n krke uska width 100% v likh skte h */
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+        }
+        #First{
+            /* basicaly em yah apne parent se multiply krke font ko show karata hai
+            yah par iska parent container ka font size hai 10*5=50px of mera First heading 
+            ka font size hoga  */
+            font-size: 5em;
+            /* ab yaha padding ke em ka parrent ho gya font size 5 em yah isko apna parent 
+            manega ab to aapka padding 15 px ka banega  */
+            padding: 3em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <h1 id="First">This is my first Heading</h1>
+        <h1 id="Second">This is my second Heading</h1>
+        <h1 id="Third">This is my  third Heading</h1>
+        <h1 id="Fourth">This is my fourth Heading</h1>
+    </div>
+    
+</body>
+</html>

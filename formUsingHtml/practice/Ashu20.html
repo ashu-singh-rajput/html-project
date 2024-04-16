@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Margin and Padding</title>
+    <style>
+    
+        #Body{
+            background-color: #7e8eaf;
+
+        }
+        .Container{
+            background-color: #9bc5b7;
+            border: 3px;
+            height: 150px;
+            width: 450px;
+            /* margin box ke bahr charo trf ka area margin */
+            margin: 40px;
+            /* padding likha hua element ke agal bagal ka space */
+            padding: 15px;
+            padding-left: 30px;
+            
+            box-sizing: border-box;
+              /* border ka curv point border radius */
+            border-style: solid;
+            border-radius: 8px;
+            box-sizing: border-box;
+            
+        
+        }
+        #First{
+            font-weight: bold;
+        }
+        #Second{
+            font-weight: bold;
+
+        }
+        #Third{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body id="Body" >
+    <div class="Container">
+    <h2 >This is My First Box</h2>
+    <p id="First">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate porro expedita facere quis ratione. Neque illum temporibus in animi, voluptatibus fugiat odit eveniet?</p>
+    </div>
+    <div class="Container">
+    <h2 >This is My Second Box</h2>
+    <p id="Second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate porro expedita facere quis ratione. Neque illum temporibus in animi, voluptatibus fugiat odit eveniet?</p>
+    </div>
+    <div class="Container">
+    <h2 >This is My Third Box</h2>
+    <p id="Third" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate porro expedita facere quis ratione. Neque illum temporibus in animi, voluptatibus fugiat odit eveniet?</p>
+    </div>
+</body>
+</html>

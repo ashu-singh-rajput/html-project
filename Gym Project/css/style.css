@@ -1,0 +1,264 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 24px;
+}
+.nav-list{
+    display: flex;
+
+    align-items: center;
+    width: 70%;
+    /* background-color: rgb(15, 15, 15); */
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+    
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+
+}
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightnav{
+
+    width: 30%;
+    /* background-color: aqua; */
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+ background:rgba(0, 0, 0, 0.7) url('../image/Gym3.jpg');
+ background-size: cover;
+ background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+   
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text-small{
+    font-size: 20px;
+    
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 8px 2px;
+    border: 2px solid white;
+    border-radius: 11px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family:  "Ubuntu", sans-serif;
+    font-size: 20px;
+
+}
+.btn-sm{
+    padding: 6px 10px;
+    /* vertical -align middle krne se aapke button mein likha text 
+    button k center mein ho jayega */
+    vertical-align: middle;
+    font-size: 16px;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid gray;
+}
+.btn-dark:hover{
+    background-color: green;
+}
+.section{
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+}
+.section-Left{
+   flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 30px;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubTag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* #preloader{
+    background-color:rgb(0, 0, 0) url('../image/loader.gif') ;
+     background-size: 20%; 
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+} */
+.thumbnail img{
+    width: 230px;
+    border: 2px solid rgb(7, 7, 7);
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.contact{
+    background-color:  #dee7e7;
+    height: 800px;
+}
+.text-center{
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: 'Ubuntu';
+    font-size: 40px;
+}
+.form{
+    max-width: 75%;
+    margin: 25px auto;
+}
+.form-input{
+    width: 100%;
+   font-size: 20px;
+   border: 2px solid gray;
+   border-radius: 5px;
+   margin: 7px 0;
+   padding: 5px 3px;
+   font-family: "Ubuntu", sans-serif;
+}
+.text-footer{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 480px;
+        flex-direction: column;
+        transition: all 5.7s ease-out;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    
+    }
+    .section{
+        flex-direction: column-reverse;
+     } 
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Tutorial</title>
+    <style>
+        .Container{
+            height: 500px;
+            width: 100%;
+            border: 2px solid black;
+           
+            display: flex;
+             /* yah flex box banane ka tarika hai jaise hi aap display:flex; likhte 
+            ho aapka container flex container baan jata hai or iske ander ke element 
+            flexBox ban jaat hai */
+
+            /* flex-direction: column; */
+            
+            /* flex direction yah basicaly flex box cxonatain krne ka jariye hai 
+            ki aapka flex box kaise rhega agr aap flex direction column  likhte ho 
+            tb yah column way box ko set kr dega or aap flex direction row likhte ho tb 
+            ye flex box ko row direction mein save kr dega and flex diorection row reverse and
+            column reverse yah dono row reverse and column reverse mein flexbox ko diklhane ka 
+            kaam krta hai */
+            /* by default flex-direction: ; row hota hai  */
+             flex-wrap: wrap;
+             
+            /* basicaly yah display ke layout ko sambhal ke rkhta hai yah 
+            by default no wrap hota hai is wrap krne se ye aap layout ko wrap
+            v kroge tb ye khubsurti se wrap hoga */
+
+           /* flex-flow: row-reverse wrap; */
+           /* this is a shorthand for flex-direction and flex-wrap */
+              
+             
+           /* justify-content: will justify the content in horizontal and virtical direction */
+              
+
+            justify-content: center;
+            
+            /* justify-content: ; basicaly yah flexbox mein space and right left and center 
+            krta hai 
+            agr aap justify-content mein aap center kr do to yah aapke flex box ko center kar dega */
+              /* -------------------------------------------------------------------------------------- */
+
+
+            /* align-items: yah basicaly all items ko jo container mein hai usko start end center krta hai */
+             align-items: center;
+               /* yah basicaly pure container ke items ko container k center mein  lane kaa kaam krta hai */
+               /* ----------------------------------------------------------------------------------------- */
+               align-items: flex-end;
+                /* yah basicaly pure container ke items ko container k end mein  lane kaa kaam krta hai */
+                /* ------------------------------------------------------------------------------------------ */
+                align-items: flex-start;
+                 /* yah basicaly pure container ke items ko container k start  mein  lane kaa kaam krta hai */
+                 /*  ---------------------------------------------------------------------------------------- */
+                 align-items: stretch;
+                  /* yah basicaly pure container ke items ko container  mein varticaly evenly space 
+                  deta hai ek dusre k bich mein  */
+                  /* ------------------------------------------------------------------------------------------ */
+
+            
+        }
+        .item{
+            height: 200px;
+            width: 200px;
+            background-color:violet;
+            border: 2px solid green;
+            margin: 3px;
+            padding: 2px;
+        }
+        #item-1{
+            order: 0;
+            /* yah basicaly item box ko order k hisab se set krta h */
+                }
+        #item-2{
+            flex-grow: 1;
+            /* yah basicaly item k width ko badha kr dikhata hai aap jitna number flex grow ,ein lenge 
+            uss hisab se badha kr dikhayega  */
+        }
+#item-3{
+    flex-shrink: 15;
+   /*  yah basicaly box ki size ko chhota krta hai aap shrink ka value jitna badhayenge
+    wo utna hi chhota karega  */
+}
+#item-5{
+    flex-basis: 30px;
+    /* yah basicaly kisi v default item k size change kar skta hai */
+    /* when flex-direction: is set to row flex basis will control width */
+    /* when flex-direction: is set to column flex basis will control height */
+}
+#item-6{
+    /* flex: flex-grow + flex-shrink + flex basis ; */
+    /* yah ye teeno ko combine krke likhne k liy hai; */
+    /* --------------------------------------------------*/
+    align-self: center;
+    /* yah basicaly ek item  ya flex box ko center krta h */
+    /* ---------------------------------------------------- */
+    align-self: flex-start;
+     /* yah basicaly ek item  ya flex box ko start se dikhata h krta h */
+     /* ---------------------------------------------------------------- */
+     align-self: flex-end;
+      /* yah basicaly ek item  ya flex box ko end  krta h */
+      /* --------------------------------------------------------------- */
+}
+    </style>
+</head>
+<body>
+    <h1> This is a FlexBox</h1>
+    <div class="Container">
+        <div class="item" id="item-1">First Box</div>
+        <div class="item" id="item-2">Second Box</div>
+        <div class="item" id="item-3">Third Box</div>
+        <div class="item" id="item-4">Fourth Box</div>
+        <div class="item" id="item-5">Fifth Box</div>
+        <div class="item" id="item-6">Sixth Box</div>
+    </div>
+    
+</body>
+</html>
